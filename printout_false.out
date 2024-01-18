@@ -1,0 +1,5807 @@
+Global seed set to 1234
+01/06/2024 08:46:50 - INFO - __main__ -   ===========================================================================
+01/06/2024 08:46:50 - INFO - __main__ -   Host gr006.hpc.nyu.edu
+01/06/2024 08:46:50 - INFO - __main__ -   logging to:
+01/06/2024 08:46:50 - INFO - __main__ -   /vast/zd2362/Project/Q-Diffusion/DFTQD/output/samples/2024-01-06-08-46-50
+01/06/2024 08:46:50 - INFO - __main__ -   ===========================================================================
+01/06/2024 08:46:52 - INFO - __main__ -   Loading checkpoint /home/zd2362/.cache/diffusion_models_converted/ema_diffusion_cifar10_model/model-790000.ckpt
+01/06/2024 08:46:52 - INFO - __main__ -   Load with min-max quick initialization
+01/06/2024 08:46:56 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:56 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:57 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:57 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:57 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:57 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:57 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:58 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:58 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:58 - INFO - qdiff.quant_layer -   split at 256!
+01/06/2024 08:46:58 - INFO - qdiff.quant_layer -   split at 128!
+01/06/2024 08:46:58 - INFO - qdiff.quant_layer -   split at 128!
+Loading quantized model checkpoint
+Initializing weight quantization parameters
+Initializing act quantization parameters
+Loading quantized model checkpoint again
+######################
+module.model.temb.dense.0.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.0.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.0.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.0.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.1.weight
+{'Total': 262144}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.1.weight_quantizer.alpha
+{'Total': 262144}
+{'trainable': False}
+######################
+######################
+module.model.temb.dense.1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.conv_in.weight
+{'Total': 3456}
+{'trainable': False}
+######################
+######################
+module.model.conv_in.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.conv_in.weight_quantizer.alpha
+{'Total': 3456}
+{'trainable': False}
+######################
+######################
+module.model.conv_in.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.norm1.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.norm1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv1.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv1.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.temb_proj.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.temb_proj.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.norm2.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.norm2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv2.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv2.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.norm1.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.norm1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv1.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv1.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.temb_proj.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.temb_proj.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.norm2.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.norm2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv2.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv2.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.0.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.conv.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.downsample.conv.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.0.downsample.conv.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.down.0.downsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.0.downsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.norm1.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.norm1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv1.weight
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv1.weight_quantizer.alpha
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.weight
+{'Total': 294912}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut.weight
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut.weight_quantizer.alpha
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.weight
+{'Total': 32768}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.lora_A
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.0.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.1.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.0.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.1.attn.1.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.downsample.conv.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.downsample.conv.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.1.downsample.conv.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.1.downsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.1.downsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.2.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.conv.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.downsample.conv.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.2.downsample.conv.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.2.downsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.2.downsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.down.3.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.attn_1.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv1.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv1.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.mid.block_2.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.norm1.weight
+{'Total': 384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.norm1.bias
+{'Total': 384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv1.weight
+{'Total': 442368}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv1.weight_quantizer.alpha
+{'Total': 442368}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.weight
+{'Total': 442368}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.lora_A
+{'Total': 6912}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 3456}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.temb_proj.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.temb_proj.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.norm2.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.norm2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv2.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv2.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.weight
+{'Total': 49152}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.weight_quantizer.alpha
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 16384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.weight
+{'Total': 49152}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.lora_A
+{'Total': 768}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.lora_B
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 384}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.0.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv1.weight
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv1.weight_quantizer.alpha
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.weight
+{'Total': 294912}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.temb_proj.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.temb_proj.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.norm2.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.norm2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv2.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv2.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.weight
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.weight_quantizer.alpha
+{'Total': 16384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 16384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.weight
+{'Total': 32768}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.lora_B
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.1.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.norm1.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.norm1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv1.weight
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv1.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv1.weight_quantizer.alpha
+{'Total': 294912}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.weight
+{'Total': 294912}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.temb_proj.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.temb_proj.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.temb_proj.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.norm2.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.norm2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv2.weight
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv2.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv2.weight_quantizer.alpha
+{'Total': 147456}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.weight
+{'Total': 147456}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.lora_A
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.lora_B
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.lora_gate.weight
+{'Total': 1152}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.weight
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.weight_quantizer.alpha
+{'Total': 16384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 16384}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.weight
+{'Total': 32768}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.bias
+{'Total': 128}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.lora_B
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.0.block.2.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.0.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.1.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.norm1.weight
+{'Total': 384}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.norm1.bias
+{'Total': 384}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv1.weight
+{'Total': 884736}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv1.weight_quantizer.alpha
+{'Total': 884736}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.weight
+{'Total': 884736}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.lora_A
+{'Total': 6912}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.lora_gate.weight
+{'Total': 3456}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.weight
+{'Total': 98304}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 32768}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.weight
+{'Total': 98304}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.lora_A
+{'Total': 768}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 384}
+{'trainable': True}
+######################
+######################
+module.model.up.1.block.2.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.0.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.1.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.norm.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.norm.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.q.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.q.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.q.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.q.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.k.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.k.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.k.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.k.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.v.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.v.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.v.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.v.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.proj_out.weight
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.proj_out.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.proj_out.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.proj_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.act_quantizer_q.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.act_quantizer_k.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.act_quantizer_v.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.q_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.k_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.v_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.weight
+{'Total': 65536}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.lora_A
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.lora_gate.weight
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.proj_out_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.1.attn.2.act_quantizer_w.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.upsample.conv.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.upsample.conv.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.1.upsample.conv.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.1.upsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.1.upsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.0.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.1.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.2.block.2.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.conv.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.upsample.conv.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.2.upsample.conv.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.2.upsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.2.upsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.0.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.1.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.norm1.weight
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.norm1.bias
+{'Total': 512}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv1.weight
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv1.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv1.weight_quantizer.alpha
+{'Total': 1179648}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv1.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.weight
+{'Total': 1179648}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.lora_A
+{'Total': 9216}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.lora_gate.weight
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv1_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.temb_proj.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.temb_proj.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.temb_proj.weight_quantizer.alpha
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.temb_proj.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.norm2.weight
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.norm2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv2.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv2.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv2.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv2.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.conv2_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.weight
+{'Total': 131072}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.weight_quantizer.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.weight_quantizer_0.alpha
+{'Total': 65536}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut.act_quantizer_0.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.weight
+{'Total': 131072}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.lora_A
+{'Total': 1024}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.lora_B
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.lora_gate.weight
+{'Total': 512}
+{'trainable': True}
+######################
+######################
+module.model.up.3.block.2.nin_shortcut_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.conv.weight
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.upsample.conv.bias
+{'Total': 256}
+{'trainable': False}
+######################
+######################
+module.model.up.3.upsample.conv.weight_quantizer.alpha
+{'Total': 589824}
+{'trainable': False}
+######################
+######################
+module.model.up.3.upsample.conv.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.weight
+{'Total': 589824}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.bias
+{'Total': 256}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.lora_A
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.lora_B
+{'Total': 4608}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.lora_gate.weight
+{'Total': 2304}
+{'trainable': True}
+######################
+######################
+module.model.up.3.upsample.Conv_Lora2d.lora_gate.bias
+{'Total': 1}
+{'trainable': True}
+######################
+######################
+module.model.norm_out.weight
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.norm_out.bias
+{'Total': 128}
+{'trainable': False}
+######################
+######################
+module.model.conv_out.weight
+{'Total': 3456}
+{'trainable': False}
+######################
+######################
+module.model.conv_out.bias
+{'Total': 3}
+{'trainable': False}
+######################
+######################
+module.model.conv_out.weight_quantizer.alpha
+{'Total': 3456}
+{'trainable': False}
+######################
+######################
+module.model.conv_out.act_quantizer.delta
+{'Total': 1}
+{'trainable': False}
+######################
+{'Total': 104893935, 'Trainable': 33456215}
+01/06/2024 08:47:03 - INFO - root -   step: 1, loss: 271.37420654296875, data time: 0.9582960605621338
+01/06/2024 08:47:05 - INFO - root -   step: 2, loss: 154.29254150390625, data time: 0.47991418838500977
+01/06/2024 08:47:06 - INFO - root -   step: 3, loss: 327.69500732421875, data time: 0.3204224109649658
+01/06/2024 08:47:08 - INFO - root -   step: 4, loss: 311.5680236816406, data time: 0.2404274344444275
+01/06/2024 08:47:09 - INFO - root -   step: 5, loss: 292.033203125, data time: 0.1926128387451172
+01/06/2024 08:47:10 - INFO - root -   step: 6, loss: 255.47335815429688, data time: 0.1607725222905477
+01/06/2024 08:47:11 - INFO - root -   step: 7, loss: 134.10086059570312, data time: 0.13806976590837752
+01/06/2024 08:47:12 - INFO - root -   step: 8, loss: 361.3344421386719, data time: 0.12086674571037292
+01/06/2024 08:47:13 - INFO - root -   step: 9, loss: 387.0767517089844, data time: 0.10758460892571343
+01/06/2024 08:47:14 - INFO - root -   step: 10, loss: 213.75558471679688, data time: 0.09695844650268555
+01/06/2024 08:47:15 - INFO - root -   step: 11, loss: 317.7906494140625, data time: 0.08826962384310635
+01/06/2024 08:47:16 - INFO - root -   step: 12, loss: 162.2392578125, data time: 0.08102516333262126
+01/06/2024 08:47:17 - INFO - root -   step: 13, loss: 168.59608459472656, data time: 0.07489527188814603
+01/06/2024 08:47:18 - INFO - root -   step: 14, loss: 97.61996459960938, data time: 0.06963998930794853
+01/06/2024 08:47:19 - INFO - root -   step: 15, loss: 197.9226837158203, data time: 0.06508634885152181
+01/06/2024 08:47:20 - INFO - root -   step: 16, loss: 276.6230773925781, data time: 0.06111496686935425
+01/06/2024 08:47:21 - INFO - root -   step: 17, loss: 75.73072052001953, data time: 0.057600484174840594
+01/06/2024 08:47:23 - INFO - root -   step: 18, loss: 405.06878662109375, data time: 0.05447526772816976
+01/06/2024 08:47:24 - INFO - root -   step: 19, loss: 259.7724304199219, data time: 0.05167982452794125
+01/06/2024 08:47:25 - INFO - root -   step: 20, loss: 233.79725646972656, data time: 0.04916073083877563
+01/06/2024 08:47:26 - INFO - root -   step: 21, loss: 184.6699676513672, data time: 0.046881516774495445
+01/06/2024 08:47:27 - INFO - root -   step: 22, loss: 255.43563842773438, data time: 0.044810251756147904
+01/06/2024 08:47:28 - INFO - root -   step: 23, loss: 262.36529541015625, data time: 0.0429186199022376
+01/06/2024 08:47:29 - INFO - root -   step: 24, loss: 237.01043701171875, data time: 0.04119373361269633
+01/06/2024 08:47:30 - INFO - root -   step: 25, loss: 151.38018798828125, data time: 0.03959804534912109
+01/06/2024 08:47:31 - INFO - root -   step: 26, loss: 105.16580963134766, data time: 0.03812870612511268
+01/06/2024 08:47:32 - INFO - root -   step: 27, loss: 178.24737548828125, data time: 0.03676465705589012
+01/06/2024 08:47:33 - INFO - root -   step: 28, loss: 164.62222290039062, data time: 0.03549775906971523
+01/06/2024 08:47:34 - INFO - root -   step: 29, loss: 153.08563232421875, data time: 0.034318915728865
+01/06/2024 08:47:35 - INFO - root -   step: 30, loss: 169.813720703125, data time: 0.03321905930836996
+01/06/2024 08:47:36 - INFO - root -   step: 31, loss: 187.39886474609375, data time: 0.03218880007343908
+01/06/2024 08:47:38 - INFO - root -   step: 32, loss: 143.9178466796875, data time: 0.03123217076063156
+01/06/2024 08:47:39 - INFO - root -   step: 33, loss: 82.39912414550781, data time: 0.030325940161040336
+01/06/2024 08:47:40 - INFO - root -   step: 34, loss: 163.31192016601562, data time: 0.029473564204047707
+01/06/2024 08:47:41 - INFO - root -   step: 35, loss: 149.90367126464844, data time: 0.028669234684535434
+01/06/2024 08:47:42 - INFO - root -   step: 36, loss: 221.80186462402344, data time: 0.027910934554206
+01/06/2024 08:47:43 - INFO - root -   step: 37, loss: 143.67666625976562, data time: 0.027193784713745117
+01/06/2024 08:47:44 - INFO - root -   step: 38, loss: 132.17861938476562, data time: 0.026513350637335526
+01/06/2024 08:47:45 - INFO - root -   step: 39, loss: 143.04010009765625, data time: 0.02586790231557993
+01/06/2024 08:47:46 - INFO - root -   step: 40, loss: 177.90858459472656, data time: 0.025254213809967042
+01/06/2024 08:47:47 - INFO - root -   step: 41, loss: 220.4528045654297, data time: 0.024670548555327625
+01/06/2024 08:47:48 - INFO - root -   step: 42, loss: 213.8886260986328, data time: 0.024115051542009627
+01/06/2024 08:47:49 - INFO - root -   step: 43, loss: 202.34225463867188, data time: 0.02359106374341388
+01/06/2024 08:47:50 - INFO - root -   step: 44, loss: 111.70219421386719, data time: 0.023084868084300648
+01/06/2024 08:47:52 - INFO - root -   step: 45, loss: 173.62155151367188, data time: 0.02260169982910156
+01/06/2024 08:47:53 - INFO - root -   step: 46, loss: 131.86764526367188, data time: 0.022140471831611965
+01/06/2024 08:47:54 - INFO - root -   step: 47, loss: 105.6640625, data time: 0.02169731322755205
+01/06/2024 08:47:55 - INFO - root -   step: 48, loss: 112.90867614746094, data time: 0.021273011962572735
+01/06/2024 08:47:56 - INFO - root -   step: 49, loss: 176.2244873046875, data time: 0.020865999922460438
+01/06/2024 08:47:57 - INFO - root -   step: 50, loss: 207.28451538085938, data time: 0.02047532081604004
+01/06/2024 08:47:58 - INFO - root -   step: 51, loss: 126.82772064208984, data time: 0.020099794163423425
+01/06/2024 08:47:59 - INFO - root -   step: 52, loss: 200.20700073242188, data time: 0.019738940092233512
+01/06/2024 08:48:00 - INFO - root -   step: 53, loss: 154.3312225341797, data time: 0.01939200905134093
+01/06/2024 08:48:01 - INFO - root -   step: 54, loss: 178.44351196289062, data time: 0.019062099633393465
+01/06/2024 08:48:02 - INFO - root -   step: 55, loss: 108.57571411132812, data time: 0.01874021183360707
+01/06/2024 08:48:03 - INFO - root -   step: 56, loss: 86.6940689086914, data time: 0.01842992220606123
+01/06/2024 08:48:04 - INFO - root -   step: 57, loss: 125.64351654052734, data time: 0.018131251920733536
+01/06/2024 08:48:05 - INFO - root -   step: 58, loss: 170.13320922851562, data time: 0.017841577529907227
+01/06/2024 08:48:07 - INFO - root -   step: 59, loss: 149.22085571289062, data time: 0.017561423576484294
+01/06/2024 08:48:08 - INFO - root -   step: 60, loss: 100.46888732910156, data time: 0.017290480931599937
+01/06/2024 08:48:09 - INFO - root -   step: 61, loss: 175.24395751953125, data time: 0.01702902356132132
+01/06/2024 08:48:10 - INFO - root -   step: 62, loss: 152.4439697265625, data time: 0.016775673435580347
+01/06/2024 08:48:11 - INFO - root -   step: 63, loss: 162.51092529296875, data time: 0.016530070986066545
+01/06/2024 08:48:12 - INFO - root -   step: 64, loss: 203.7142333984375, data time: 0.01629241555929184
+01/06/2024 08:48:13 - INFO - root -   step: 65, loss: 191.17404174804688, data time: 0.016066268774179313
+01/06/2024 08:48:14 - INFO - root -   step: 66, loss: 61.117431640625, data time: 0.015842802596814705
+01/06/2024 08:48:15 - INFO - root -   step: 67, loss: 167.59654235839844, data time: 0.015631636576866035
+01/06/2024 08:48:16 - INFO - root -   step: 68, loss: 110.03056335449219, data time: 0.01542135897804709
+01/06/2024 08:48:17 - INFO - root -   step: 69, loss: 194.58010864257812, data time: 0.015217331872470137
+01/06/2024 08:48:18 - INFO - root -   step: 70, loss: 120.40052795410156, data time: 0.01501896721976144
+01/06/2024 08:48:19 - INFO - root -   step: 71, loss: 162.55503845214844, data time: 0.014826814893265846
+01/06/2024 08:48:20 - INFO - root -   step: 72, loss: 127.64593505859375, data time: 0.0146389901638031
+01/06/2024 08:48:22 - INFO - root -   step: 73, loss: 164.07852172851562, data time: 0.014456765292442008
+01/06/2024 08:48:23 - INFO - root -   step: 74, loss: 212.51309204101562, data time: 0.014279381648914234
+01/06/2024 08:48:24 - INFO - root -   step: 75, loss: 108.36618041992188, data time: 0.014106432596842447
+01/06/2024 08:48:25 - INFO - root -   step: 76, loss: 113.58853912353516, data time: 0.013938006601835551
+01/06/2024 08:48:26 - INFO - root -   step: 77, loss: 122.12105560302734, data time: 0.013773970789723582
+01/06/2024 08:48:27 - INFO - root -   step: 78, loss: 141.1333465576172, data time: 0.013614880733000927
+01/06/2024 08:48:28 - INFO - root -   step: 79, loss: 100.33855438232422, data time: 0.013458952119078818
+01/06/2024 08:48:29 - INFO - root -   step: 80, loss: 132.58416748046875, data time: 0.013307112455368041
+01/06/2024 08:48:30 - INFO - root -   step: 81, loss: 105.73397827148438, data time: 0.01315901897571705
+01/06/2024 08:48:31 - INFO - root -   step: 82, loss: 89.85436248779297, data time: 0.013014453213389328
+01/06/2024 08:48:32 - INFO - root -   step: 83, loss: 165.24790954589844, data time: 0.01287743269679058
+01/06/2024 08:48:33 - INFO - root -   step: 84, loss: 126.6933822631836, data time: 0.01273985987617856
+01/06/2024 08:48:34 - INFO - root -   step: 85, loss: 156.3187713623047, data time: 0.01260543150060317
+01/06/2024 08:48:36 - INFO - root -   step: 86, loss: 122.28133392333984, data time: 0.012474356695663097
+01/06/2024 08:48:37 - INFO - root -   step: 87, loss: 138.41622924804688, data time: 0.012346133418466854
+01/06/2024 08:48:38 - INFO - root -   step: 88, loss: 148.45399475097656, data time: 0.012221233411268755
+01/06/2024 08:48:39 - INFO - root -   step: 89, loss: 142.64407348632812, data time: 0.012099006202783478
+01/06/2024 08:48:40 - INFO - root -   step: 90, loss: 182.53173828125, data time: 0.011979161368476019
+01/06/2024 08:48:41 - INFO - root -   step: 91, loss: 144.04368591308594, data time: 0.011861929526695838
+01/06/2024 08:48:42 - INFO - root -   step: 92, loss: 156.38107299804688, data time: 0.011747292850328528
+01/06/2024 08:48:43 - INFO - root -   step: 93, loss: 164.72723388671875, data time: 0.011635270169986191
+01/06/2024 08:48:44 - INFO - root -   step: 94, loss: 129.16500854492188, data time: 0.011525260641219769
+01/06/2024 08:48:45 - INFO - root -   step: 95, loss: 141.9778594970703, data time: 0.011417830617804277
+01/06/2024 08:48:46 - INFO - root -   step: 96, loss: 76.47523498535156, data time: 0.011312467356522879
+01/06/2024 08:48:47 - INFO - root -   step: 97, loss: 106.06069946289062, data time: 0.011209492830886054
+01/06/2024 08:48:48 - INFO - root -   step: 98, loss: 100.26661682128906, data time: 0.01110868551293198
+01/06/2024 08:48:49 - INFO - root -   step: 99, loss: 132.88267517089844, data time: 0.011009885807230014
+01/06/2024 08:48:51 - INFO - root -   step: 100, loss: 178.60540771484375, data time: 0.010912928581237793
+01/06/2024 08:48:52 - INFO - root -   step: 101, loss: 140.4993438720703, data time: 0.01081788421857475
+01/06/2024 08:48:53 - INFO - root -   step: 102, loss: 156.9619140625, data time: 0.01072836389728621
+01/06/2024 08:48:54 - INFO - root -   step: 103, loss: 122.537109375, data time: 0.010637086571998966
+01/06/2024 08:48:55 - INFO - root -   step: 104, loss: 111.75352478027344, data time: 0.010547626477021437
+01/06/2024 08:48:56 - INFO - root -   step: 105, loss: 137.7113037109375, data time: 0.010459893090384347
+01/06/2024 08:48:57 - INFO - root -   step: 106, loss: 87.35015869140625, data time: 0.010373626115187159
+01/06/2024 08:48:58 - INFO - root -   step: 107, loss: 157.75331115722656, data time: 0.010288900304063459
+01/06/2024 08:48:59 - INFO - root -   step: 108, loss: 146.93759155273438, data time: 0.010206149684058296
+01/06/2024 08:49:00 - INFO - root -   step: 109, loss: 133.02645874023438, data time: 0.010124775247836332
+01/06/2024 08:49:01 - INFO - root -   step: 110, loss: 77.33360290527344, data time: 0.010044732960787686
+01/06/2024 08:49:02 - INFO - root -   step: 111, loss: 106.97349548339844, data time: 0.009965954600153742
+01/06/2024 08:49:03 - INFO - root -   step: 112, loss: 114.3338623046875, data time: 0.00988865750176566
+01/06/2024 08:49:04 - INFO - root -   step: 113, loss: 87.49603271484375, data time: 0.00981283609845997
+01/06/2024 08:49:06 - INFO - root -   step: 114, loss: 87.505126953125, data time: 0.009738213137576454
+01/06/2024 08:49:07 - INFO - root -   step: 115, loss: 86.0060043334961, data time: 0.009664867235266644
+01/06/2024 08:49:08 - INFO - root -   step: 116, loss: 88.10676574707031, data time: 0.009592742755495268
+01/06/2024 08:49:09 - INFO - root -   step: 117, loss: 134.03663635253906, data time: 0.009522193517440405
+01/06/2024 08:49:10 - INFO - root -   step: 118, loss: 124.03773498535156, data time: 0.009452696573936333
+01/06/2024 08:49:11 - INFO - root -   step: 119, loss: 118.34819030761719, data time: 0.009384179315647157
+01/06/2024 08:49:12 - INFO - root -   step: 120, loss: 245.5303192138672, data time: 0.00931678016980489
+01/06/2024 08:49:13 - INFO - root -   step: 121, loss: 72.92474365234375, data time: 0.009250735448411674
+01/06/2024 08:49:14 - INFO - root -   step: 122, loss: 114.87521362304688, data time: 0.009185687440340637
+01/06/2024 08:49:15 - INFO - root -   step: 123, loss: 202.69906616210938, data time: 0.009124740352475546
+01/06/2024 08:49:16 - INFO - root -   step: 124, loss: 65.7728500366211, data time: 0.009061799895378852
+01/06/2024 08:49:17 - INFO - root -   step: 125, loss: 133.52867126464844, data time: 0.008999780654907226
+01/06/2024 08:49:18 - INFO - root -   step: 126, loss: 117.78353118896484, data time: 0.00893889722369966
+01/06/2024 08:49:19 - INFO - root -   step: 127, loss: 111.19497680664062, data time: 0.00887871727230042
+01/06/2024 08:49:21 - INFO - root -   step: 128, loss: 165.74642944335938, data time: 0.00882164016366005
+01/06/2024 08:49:22 - INFO - root -   step: 129, loss: 83.56314849853516, data time: 0.008763531381769697
+01/06/2024 08:49:23 - INFO - root -   step: 130, loss: 111.34363555908203, data time: 0.00870658067556528
+01/06/2024 08:49:24 - INFO - root -   step: 131, loss: 107.27775573730469, data time: 0.00865039752639887
+01/06/2024 08:49:25 - INFO - root -   step: 132, loss: 121.39097595214844, data time: 0.008594783869656649
+01/06/2024 08:49:26 - INFO - root -   step: 133, loss: 113.25244140625, data time: 0.008540194733698565
+01/06/2024 08:49:27 - INFO - root -   step: 134, loss: 154.17233276367188, data time: 0.008486197955572783
+01/06/2024 08:49:28 - INFO - root -   step: 135, loss: 128.43850708007812, data time: 0.00843316537362558
+01/06/2024 08:49:29 - INFO - root -   step: 136, loss: 77.98422241210938, data time: 0.008380782954833087
+01/06/2024 08:49:30 - INFO - root -   step: 137, loss: 100.27424621582031, data time: 0.00832962815778969
+01/06/2024 08:49:31 - INFO - root -   step: 138, loss: 69.03948211669922, data time: 0.00827892794125322
+01/06/2024 08:49:32 - INFO - root -   step: 139, loss: 175.37600708007812, data time: 0.008228881753605904
+01/06/2024 08:49:33 - INFO - root -   step: 140, loss: 111.32768249511719, data time: 0.008179490906851633
+01/06/2024 08:49:35 - INFO - root -   step: 141, loss: 55.630332946777344, data time: 0.008131106694539389
+01/06/2024 08:49:36 - INFO - root -   step: 142, loss: 82.09429931640625, data time: 0.008083602072487414
+01/06/2024 08:49:37 - INFO - root -   step: 143, loss: 141.750732421875, data time: 0.00803630835526473
+01/06/2024 08:49:38 - INFO - root -   step: 144, loss: 136.29678344726562, data time: 0.007989638381534152
+01/06/2024 08:49:39 - INFO - root -   step: 145, loss: 114.41165161132812, data time: 0.007943572669193662
+01/06/2024 08:49:40 - INFO - root -   step: 146, loss: 101.60494995117188, data time: 0.007898195149147347
+01/06/2024 08:49:41 - INFO - root -   step: 147, loss: 67.68672180175781, data time: 0.007853478801493742
+01/06/2024 08:49:42 - INFO - root -   step: 148, loss: 136.29934692382812, data time: 0.007811150035342654
+01/06/2024 08:49:43 - INFO - root -   step: 149, loss: 68.93409729003906, data time: 0.007767710909747438
+01/06/2024 08:49:44 - INFO - root -   step: 150, loss: 186.5263671875, data time: 0.007724846204121907
+01/06/2024 08:49:45 - INFO - root -   step: 151, loss: 131.1093292236328, data time: 0.007682550821872736
+01/06/2024 08:49:46 - INFO - root -   step: 152, loss: 74.21134948730469, data time: 0.007640703728324489
+01/06/2024 08:49:47 - INFO - root -   step: 153, loss: 135.34666442871094, data time: 0.0075993943058587365
+01/06/2024 08:49:48 - INFO - root -   step: 154, loss: 129.00682067871094, data time: 0.007558722000617486
+01/06/2024 08:49:50 - INFO - root -   step: 155, loss: 123.64093017578125, data time: 0.007518399146295363
+01/06/2024 08:49:51 - INFO - root -   step: 156, loss: 139.278076171875, data time: 0.007478674252827962
+01/06/2024 08:49:52 - INFO - root -   step: 157, loss: 84.86830139160156, data time: 0.007439947432013833
+01/06/2024 08:49:53 - INFO - root -   step: 158, loss: 109.33074188232422, data time: 0.00740163084826892
+01/06/2024 08:49:54 - INFO - root -   step: 159, loss: 113.30906677246094, data time: 0.00736327441233509
+01/06/2024 08:49:55 - INFO - root -   step: 160, loss: 144.27342224121094, data time: 0.007325395941734314
+01/06/2024 08:49:56 - INFO - root -   step: 161, loss: 171.28646850585938, data time: 0.007288020590077276
+slurmstepd: error: *** JOB 41526585 ON gr006 CANCELLED AT 2024-01-06T08:49:56 ***
