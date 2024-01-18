@@ -1,0 +1,59 @@
+data:
+    dataset: "CIFAR10"
+    image_size: 32
+    channels: 3
+    logit_transform: false
+    uniform_dequantization: false
+    gaussian_dequantization: false
+    random_flip: true
+    rescaled: true
+    num_workers: 4
+
+model:
+    type: "simple"
+    in_channels: 3
+    out_ch: 3
+    ch: 128
+    ch_mult: [1, 2, 2, 2]
+    num_res_blocks: 2
+    attn_resolutions: [16, ]
+    dropout: 0.1
+    var_type: fixedlarge
+    ema_rate: 0.9999
+    ema: True
+    resamp_with_conv: True
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_diffusion_timesteps: 1000
+
+training:
+    batch_size: 128
+    n_epochs: 10000
+    n_iters: 5000000
+    snapshot_freq: 5000
+    validation_freq: 2000
+
+sampling:
+    batch_size: 64
+    last_only: True
+
+# optim:
+#   weight_decay: 0.0001  # 适用于微调的权重衰减
+#   optimizer: "Adam"      # 选择优化器
+#   lr: 0.00002            # 较小的学习率，适用于微调 lr: 0.00002
+#   beta1: 0.9             # Adam 优化器的 beta1 参数
+#   amsgrad: false         # 是否使用 AMSGrad 变种
+#   eps: 0.00000001              # epsilon 参数，防止零除错误
+#   grad_clip: 0.5         # 梯度裁剪防止梯度爆炸
+
+optim:
+    weight_decay: 0.0001  # 适用于微调的权重衰减
+    optimizer: "Adam"      # 选择优化器
+    lr: 0.00002            # 较小的学习率，适用于微调 lr: 0.00002
+    beta1: 0.9             # Adam 优化器的 beta1 参数
+    amsgrad: false         # 是否使用 AMSGrad 变种
+    eps: 0.00000001              # epsilon 参数，防止零除错误
+    grad_clip: 0.5         # 梯度裁剪防止梯度爆炸
